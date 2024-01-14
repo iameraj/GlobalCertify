@@ -1,0 +1,53 @@
+<!-- HTML !-->
+<button class="button-7" role="button">Button 5</button>
+
+/* CSS */
+.button-7 {
+    align-items: center;
+    background-clip: padding-box;
+    background-color:var(--burnt-sienna);
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    justify-content: center;
+    line-height: 1.25;
+    margin: 0;
+    min-height: 3rem;
+    padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+    position: relative;
+    text-decoration: none;
+    transition: all 250ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    width: auto;
+  }
+  
+  .button-7:hover,
+  .button-7:focus {
+    background-color: var(--peach-yellow);
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+  }
+  
+  .button-7:hover {
+    transform: translateY(-1px);
+  }
+  
+  .button-7:active {
+    background-color: var(--burnt-sienna);
+    box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
+    transform: translateY(0);
+  }
+d-grid gap-2 d-md-flex justify-content-md-start
+
+<div class="d-grid gap-2 d-md-flex justify-content-md-start">
+          <button class="button-7" role="button">Get Started!</button>
+    </div>

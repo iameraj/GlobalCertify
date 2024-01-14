@@ -1,0 +1,154 @@
+:root {
+--white: #FEFEFEff;
+--columbia-blue: #C8DAEEff;
+--peach-yellow: #F3D18Aff;
+--alice-blue: #ECF1F6ff;
+--burnt-sienna: #F3795Aff;
+--delft-blue: #25395Cff;
+}
+
+.navbar > div {
+    padding: 1%;
+    background-color: var(--columbia-blue);
+}
+
+.button-5 {
+    align-items: center;
+    background-clip: padding-box;
+    background-color:var(--burnt-sienna);
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    justify-content: center;
+    line-height: 1.25;
+    margin: 0;
+    min-height: 3rem;
+    padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+    position: relative;
+    text-decoration: none;
+    transition: all 250ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    width: auto;
+  }
+  
+  .button-5:hover,
+  .button-5:focus {
+    background-color: var(--peach-yellow);
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+  }
+  
+  .button-5:hover {
+    transform: translateY(-1px);
+  }
+  
+  .button-7 {
+    align-items: center;
+    background-clip: padding-box;
+    background-color:var(--delft-blue);
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    justify-content: center;
+    line-height: 1.25;
+    margin: 0;
+    min-height: 3rem;
+    padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+    position: relative;
+    text-decoration: none;
+    transition: all 250ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    width: auto;
+  }
+  
+  .button-7:hover,
+  .button-7:focus {
+    background-color: var(--alice-blue);
+    color: black;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+  }
+  
+  .button-7:hover {
+    transform: translateY(-1px);
+  }
+
+  .card-body{
+    padding: 10px;
+    height: 240px;
+    overflow: hidden;
+  }
+  .card-body > header {
+    display: flex;
+    align-items: center;
+  }
+
+  .categories {
+    background-color: var(--peach-yellow);
+    height: 430px;
+    margin-bottom: 360px;
+  }
+
+  .card {
+    background-color: var(--burnt-sienna);
+    margin:10px;
+    border-radius: 14px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+
+  .card:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+     rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  }
+  .swiper {
+    height: 300px;
+  }
+
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+  .featurette-divider {
+    margin: 5rem;
+  }
+
+  .featurette > div > img {
+    background-color: var(--delft-blue);
+    width: 100%;
+  }
+
+  .fade-in{
+    opacity: 0;
+    transform: translateX(20px); /* Move the element to the right initially */
+    animation: fadeInRightAnimation 2s ease-in-out forwards;
+    /* Adjust the duration (2s) and timing function (ease-in-out) as needed */
+}
+
+@keyframes fadeInRightAnimation {
+    from {
+        opacity: 0;
+        transform: translateX(20px); /* Move from right */
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0); /* Move to the original position */
+    }
+}
