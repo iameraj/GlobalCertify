@@ -19,23 +19,41 @@ const swiper = new Swiper(".swiper", {
   },
 });
 
-const images = document.querySelectorAll(".fade-in");
+function revealRight() {
+  var reveals = document.querySelectorAll(".reveal-right");
 
-const options = {
-  root: null,
-  rootMargin: "0px",
-  threshold: 0.5, // Adjust the threshold as needed
-};
+  for (var i = 0; i < reveals.length; i++) {
+    var windowHeight = window.innerHeight;
+    var elementTop = reveals[i].getBoundingClientRect().top;
+    var elementVisible = 150;
 
-const observer = new IntersectionObserver((entries, observer) => {
-  entries.forEach((entry) => {
-    if (entry.isIntersecting) {
-      entry.target.classList.add("visible");
-      observer.unobserve(entry.target);
+    if (elementTop < windowHeight - elementVisible) {
+      reveals[i].classList.add("active");
+    } else {
+      reveals[i].classList.remove("active");
     }
-  });
-}, options);
+  }
+}
 
-images.forEach((image) => {
-  observer.observe(image);
-});
+function revealLeft() {
+  var reveals = document.querySelectorAll(".reveal-left");
+
+  for (var i = 0; i < reveals.length; i++) {
+    var windowHeight = window.innerHeight;
+    var elementTop = reveals[i].getBoundingClientRect().top;
+    var elementVisible = 150;
+
+    if (elementTop < windowHeight - elementVisible) {
+      reveals[i].classList.add("active");
+    } else {
+      reveals[i].classList.remove("active");
+    }
+  }
+}
+
+window.addEventListener("scroll", revealRight);
+window.addEventListener("scroll", revealLeft);
+
+// To check the scroll position on the page load
+revealRight();
+revealLeft();
