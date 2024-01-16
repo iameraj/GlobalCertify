@@ -8,8 +8,12 @@
 }
 
 .navbar > div {
-    padding: 1%;
+    padding: 2%;
+    margin: 0 !important;
     background-color: var(--columbia-blue);
+}
+nav {
+  background-color: var(--columbia-blue) !important;
 }
 
 .button-5 {
@@ -149,6 +153,44 @@
 
 }
 
+#myCarousel {
+  background-color: var(--columbia-blue);
+}
+
+.cover-end {
+  object-fit: cover;
+  width: 100%;
+  float: right;
+}
+
+.cover-start {
+  object-fit: cover;
+  width:100%;
+  float: left;
+}
+.text-start{
+  padding: 20%;
+}
+.text-end {
+  padding: 20%
+}
+
+.carousel-caption {
+  color: black;
+}
+.carousel-item {
+  padding:10px;
+}
+
+.carousel-control-prev-icon {
+  height: 70px;
+  border-radius: 50%;
+}
+
+.carousel-control-next-icon {
+  height: 70px;
+  border-radius: 50%;
+}
 .reveal-left.active,
 .reveal-right.active {
     transform: translateX(0);
