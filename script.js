@@ -19,6 +19,12 @@ const swiper = new Swiper(".swiper", {
   },
 });
 
+function goToContactPage() {
+  window.location.href = "./contact.html";
+}
+function goToCoursesPage() {
+  window.location.href = "./courses.html";
+}
 function revealRight() {
   var reveals = document.querySelectorAll(".reveal-right");
 

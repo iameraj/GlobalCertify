@@ -13,7 +13,7 @@
 <body>
     <main>
         <!-- Navbar -->
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary navbar-custom">
             <div class="container-fluid justify-content-center py-3">
                 <a class="navbar-brand" href="#">GlobalCertify</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -74,129 +74,12 @@
                         no borders.
                     </p>
                     <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-                        <button class="button-5" role="button">Get Started!</button>
+                        <button onclick="goToCoursesPage()" class="button-5" role="button">Get Started!</button>
                     </div>
                 </div>
             </div>
         </div>
         <!-- End of Header/hero -->
-
-        <!-- Categories -->
-        <section>
-            <div class="container-fluid p-5 categories">
-                <div class="row">
-                    <div class="col-sm-4 my-5 px-5">
-                        <h2 class="display-3">Our Categories</h2>
-                        <p>Embark on a diverse learning adventure with GlobalCertify's comprehensive categories. From
-                            mastering cutting-edge tech to unleashing creativity, our array includes business, health,
-                            arts, language, science, and personal development. Explore your potential!</p>
-                        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-                            <button class="button-7" role="button">Learn More</button>
-                        </div>
-                    </div>
-                    <div class="col-sm-8">
-                        <div class="row">
-                            <div class="col-sm-4 mb-3 mb-sm-0">
-                                <div class="card">
-                                    <div class="card-body">
-                                        <header>
-                                            <img class="pb-2 m-2" src="Assests/software.png" alt="Software icon"
-                                                width="50px">
-
-                                            <h5 class="card-title">Technology & IT</h5>
-                                        </header>
-                                        <hr>
-                                        <p class="card-text">Dive into the digital realm, mastering coding,
-                                            cybersecurity, and tech innovation to shape the future of information
-                                            technology.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-sm-4 mb-3 mb-sm-0">
-                                <div class="card">
-                                    <div class="card-body">
-                                        <header>
-                                            <img class="pb-2 m-2" src="Assests/investment.png" alt="Software icon"
-                                                width="50px">
-                                            <h5 class="card-title">Business & Finance</h5>
-                                        </header>
-                                        <hr>
-
-                                        <p class="card-text">Navigate the complexities of commerce, honing skills in
-                                            management, finance, and entrepreneurship</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-sm-4 mb-3 mb-sm-0">
-                                <div class="card">
-                                    <div class="card-body">
-                                        <header>
-                                            <img class="pb-2 m-2" src="Assests/Healthcare.png" alt="Software icon"
-                                                width="50px">
-                                            <h5 class="card-title">Healthcare & treatment</h5>
-                                        </header>
-                                        <hr>
-
-                                        <p class="card-text">Explore the healing arts, from medical ethics to
-                                            cutting-edge research, and make a positive impact</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <br>
-                        <div class="row">
-                            <div class="col-sm-4 mb-3 mb-sm-0">
-                                <div class="card">
-
-                                    <div class="card-body">
-                                        <header>
-                                            <img class="pb-2 m-2" src="Assests/arts.png" alt="Software icon"
-                                                width="50px">
-                                            <h5 class="card-title">Arts & Design</h5>
-                                        </header>
-                                        <hr>
-                                        <p class="card-text"> Unleash creativity, mastering design principles and
-                                            artistic expression to transform ideas into visually stunning realities.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-sm-4 mb-3 mb-sm-0">
-                                <div class="card">
-                                    <div class="card-body">
-                                        <header>
-                                            <img class="pb-2 m-2" src="Assests/language.png" alt="Software icon"
-                                                width="50px">
-                                            <h5 class="card-title">Language & Communication</h5>
-                                        </header>
-                                        <hr>
-
-                                        <p class="card-text">Cultivate effective communication, language proficiency,
-                                            and cross-cultural understanding to thrive in a diverse global landscape</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-sm-4 mb-3 mb-sm-0">
-                                <div class="card">
-                                    <div class="card-body">
-                                        <header>
-                                            <img class="pb-2 m-2" src="Assests/science.png" alt="Software icon"
-                                                width="50px">
-                                            <h5 class="card-title"> Science & Engineering</h5>
-                                        </header>
-                                        <hr>
-
-                                        <p class="card-text">Venture into the realms of discovery, exploring scientific
-                                            wonders and engineering marvels that shape the world around us.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- End of Categories -->
-
 
         <!-- Marketing -->
         <div class="container marketing">
@@ -254,128 +137,32 @@
         </div>
         <!-- End of Marketing -->
 
-        <!-- Features -->
-        <section>
-            <div class="container px-4 py-5" id="icon-grid">
-                <div class="container px-4">
-                    <h2 class="pb-2 border-bottom">Features</h2>
-                </div>
-                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5">
-                    <div class="col d-flex align-items-start">
-                        <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em">
-                            <use xlink:href="#bootstrap"></use>
-                        </svg>
-                        <div>
-                            <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Accredited Certifications</h3>
-                            <p>Obtain internationally recognized certifications from renowned institutions..</p>
-                        </div>
+        <!-- bottom-nav -->
+        <div class="container-fluid bottom-nav">
+            <div class="container px-4 py-5">
+                <div class="row">
+                    <div class="col-md-6">
+                        <center>
+                            <button onclick="goToContactPage()" class="button-6">Enroll!</button>
+                        </center>
                     </div>
-                    <div class="col d-flex align-items-start">
-                        <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em">
-                            <use xlink:href="#cpu-fill"></use>
-                        </svg>
-                        <div>
-                            <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Affordable Pricing</h3>
-                            <p>Quality education at a fraction of the cost, making learning accessible to all.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col d-flex align-items-start">
-                        <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em">
-                            <use xlink:href="#calendar3"></use>
-                        </svg>
-                        <div>
-                            <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Global Reach</h3>
-                            <p>Connect with learners worldwide, fostering a diverse and collaborative learning
-                                environment</p>
-                        </div>
-                    </div>
-                    <div class="col d-flex align-items-start">
-                        <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em">
-                            <use xlink:href="#toggles2"></use>
-                        </svg>
-
-                        <div>
-                            <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Interactive Learning</h3>
-                            <p>Engaging multimedia content, quizzes, and discussions for a dynamic learning experience
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col d-flex align-items-start">
-                        <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em">
-                            <use xlink:href="#speedometer2"></use>
-                        </svg>
-                        <div>
-                            <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">24/7 Support</h3>
-                            <p>Dedicated customer support to assist learners at any time, ensuring a smooth educational
-                                journey.</p>
-                        </div>
-                    </div>
-                    <div class="col d-flex align-items-start">
-                        <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em">
-                            <use xlink:href="#toggles2"></use>
-                        </svg>
-                        <div>
-                            <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Career Guidance</h3>
-                            <p>Access resources for career planning, job placement assistance, and skill development.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col d-flex align-items-start">
-                        <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em">
-                            <use xlink:href="#toggles2"></use>
-                        </svg>
-                        <div>
-                            <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Personalized Learning</h3>
-                            <p>Tailor your educational journey with personalized learning paths based on your goals,
-                                preferences</p>
-                        </div>
-                    </div>
-                    <div class="col d-flex align-items-start">
-                        <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em">
-                            <use xlink:href="#toggles2"></use>
-                        </svg>
-                        <div>
-                            <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Industry-Relevant Projects</h3>
-                            <p>Gain practical experience by working on real-world projects aligned with industry
-                                standards</p>
-                        </div>
-                    </div>
-
+                    <div class="col-md-6">
+                        <center>
+                            <button onclick="goToCoursesPage()" class="button-6">View Courses</button>
+                        </center>
+                     </div>
                 </div>
             </div>
-        </section>
-        <!-- End of features-->
-
-        <!-- Slider main container -->
-        <div class=" container-fluid swiper">
-            <!-- Additional required wrapper -->
-            <div class="swiper-wrapper">
-                <!-- Slides -->
-                <div class="swiper-slide">Slide 1</div>
-                <div class="swiper-slide">Slide 2</div>
-                <div class="swiper-slide">Slide 3</div>
-                ...
-            </div>
-            <!-- If we need pagination -->
-            <div class="swiper-pagination"></div>
-
-            <!-- If we need navigation buttons -->
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-button-next"></div>
-
-            <!-- If we need scrollbar -->
-            <div class="swiper-scrollbar"></div>
         </div>
+        <!-- End of bottom-nav -->
 
         <!-- Footer  -->
-        <section>
+        <section class="footer">
             <div class="container">
                 <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top">
                     <div class="col mb-3">
                         <h2>
                             GlobalCertify
-
                         </h2>
                         <p class="text-body-secondary">
                             &copy; 2024 <br>

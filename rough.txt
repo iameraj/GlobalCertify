@@ -51,3 +51,119 @@ d-grid gap-2 d-md-flex justify-content-md-start
 <div class="d-grid gap-2 d-md-flex justify-content-md-start">
           <button class="button-7" role="button">Get Started!</button>
     </div>
+
+
+    
+        <!-- Features -->
+        <section>
+            <div class="container px-4 py-5" id="icon-grid">
+                <div class="container px-4">
+                    <h2 class="pb-2 border-bottom">Features</h2>
+                </div>
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5">
+                    <div class="col d-flex align-items-start">
+                        <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em">
+                            <use xlink:href="#bootstrap"></use>
+                        </svg>
+                        <div>
+                            <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Accredited Certifications</h3>
+                            <p>Obtain internationally recognized certifications from renowned institutions..</p>
+                        </div>
+                    </div>
+                    <div class="col d-flex align-items-start">
+                        <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em">
+                            <use xlink:href="#cpu-fill"></use>
+                        </svg>
+                        <div>
+                            <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Affordable Pricing</h3>
+                            <p>Quality education at a fraction of the cost, making learning accessible to all.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col d-flex align-items-start">
+                        <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em">
+                            <use xlink:href="#calendar3"></use>
+                        </svg>
+                        <div>
+                            <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Global Reach</h3>
+                            <p>Connect with learners worldwide, fostering a diverse and collaborative learning
+                                environment</p>
+                        </div>
+                    </div>
+                    <div class="col d-flex align-items-start">
+                        <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em">
+                            <use xlink:href="#toggles2"></use>
+                        </svg>
+
+                        <div>
+                            <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Interactive Learning</h3>
+                            <p>Engaging multimedia content, quizzes, and discussions for a dynamic learning experience
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col d-flex align-items-start">
+                        <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em">
+                            <use xlink:href="#speedometer2"></use>
+                        </svg>
+                        <div>
+                            <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">24/7 Support</h3>
+                            <p>Dedicated customer support to assist learners at any time, ensuring a smooth educational
+                                journey.</p>
+                        </div>
+                    </div>
+                    <div class="col d-flex align-items-start">
+                        <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em">
+                            <use xlink:href="#toggles2"></use>
+                        </svg>
+                        <div>
+                            <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Career Guidance</h3>
+                            <p>Access resources for career planning, job placement assistance, and skill development.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col d-flex align-items-start">
+                        <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em">
+                            <use xlink:href="#toggles2"></use>
+                        </svg>
+                        <div>
+                            <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Personalized Learning</h3>
+                            <p>Tailor your educational journey with personalized learning paths based on your goals,
+                                preferences</p>
+                        </div>
+                    </div>
+                    <div class="col d-flex align-items-start">
+                        <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em">
+                            <use xlink:href="#toggles2"></use>
+                        </svg>
+                        <div>
+                            <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Industry-Relevant Projects</h3>
+                            <p>Gain practical experience by working on real-world projects aligned with industry
+                                standards</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- End of features-->
+
+                <!-- Slider main container -->
+        <div class=" container-fluid swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">Slide 1</div>
+                <div class="swiper-slide">Slide 2</div>
+                <div class="swiper-slide">Slide 3</div>
+                ...
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+
+            <!-- If we need scrollbar -->
+            <div class="swiper-scrollbar"></div>
+        </div>

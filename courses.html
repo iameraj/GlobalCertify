@@ -14,7 +14,7 @@
 <body>
     <main>
         <!-- Navbar -->
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary navbar-custom">
             <div class="container-fluid justify-content-center py-3">
                 <a class="navbar-brand" href="#">GlobalCertify</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -168,61 +168,179 @@
         </div>
         <!-- End of courses -->
 
-        <!-- Testimonials -->
-        <div class="container-fluid px-5">
-            <h2 class="display-2">
-                Testimonials
-            </h2>
-        </div>
+                <!-- Categories -->
+                <section>
+                    <div class="container-fluid p-5 my-5 categories">
+                        <div class="row">
+                            <div class="col-sm-4 my-5 px-5">
+                                <h2 class="display-3">Our Categories</h2>
+                                <p>Embark on a diverse learning adventure with GlobalCertify's comprehensive categories. From
+                                    mastering cutting-edge tech to unleashing creativity, our array includes business, health,
+                                    arts, language, science, and personal development. Explore your potential!</p>
+                                <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                                    <button onclick="goToContactPage()" class="button-7" role="button">Learn More</button>
+                                </div>
+                            </div>
+                            <div class="col-sm-8">
+                                <div class="row">
+                                    <div class="col-sm-4 mb-3 mb-sm-0">
+                                        <div onclick="goToContactPage()" class="card">
+                                            <div class="card-body">
+                                                <header>
+                                                    <img class="pb-2 m-2" src="Assests/software.png" alt="Software icon"
+                                                        width="50px">
+                                                    <h5 class="card-title">Technology & IT</h5>
+                                                </header>
+                                                <hr>
+                                                <p class="card-text">Dive into the digital realm, mastering coding,
+                                                    cybersecurity, and tech innovation to shape the future of information
+                                                    technology.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-4 mb-3 mb-sm-0">
+                                        <div class="card">
+                                            <div onclick="goToContactPage()" class="card-body">
+                                                <header>
+                                                    <img class="pb-2 m-2" src="Assests/investment.png" alt="Software icon"
+                                                        width="50px">
+                                                    <h5 class="card-title">Business & Finance</h5>
+                                                </header>
+                                                <hr>
+        
+                                                <p class="card-text">Navigate the complexities of commerce, honing skills in
+                                                    management, finance, and entrepreneurship</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-4 mb-3 mb-sm-0">
+                                        <div onclick="goToContactPage()" class="card">
+                                            <div class="card-body">
+                                                <header>
+                                                    <img class="pb-2 m-2" src="Assests/Healthcare.png" alt="Software icon"
+                                                        width="50px">
+                                                    <h5 class="card-title">Healthcare & treatment</h5>
+                                                </header>
+                                                <hr>
+        
+                                                <p class="card-text">Explore the healing arts, from medical ethics to
+                                                    cutting-edge research, and make a positive impact</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="row">
+                                    <div class="col-sm-4 mb-3 mb-sm-0">
+                                        <div onclick="goToContactPage()" class="card">
+                                            <div class="card-body">
+                                                <header>
+                                                    <img class="pb-2 m-2" src="Assests/arts.png" alt="Software icon"
+                                                        width="50px">
+                                                    <h5 class="card-title">Arts & Design</h5>
+                                                </header>
+                                                <hr>
+                                                <p class="card-text"> Unleash creativity, mastering design principles and
+                                                    artistic expression to transform ideas into visually stunning realities.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-4 mb-3 mb-sm-0">
+                                        <div onclick="goToContactPage()" class="card">
+                                            <div class="card-body">
+                                                <header>
+                                                    <img class="pb-2 m-2" src="Assests/language.png" alt="Software icon"
+                                                        width="50px">
+                                                    <h5 class="card-title">Language & Communication</h5>
+                                                </header>
+                                                <hr>
+        
+                                                <p class="card-text">Cultivate effective communication, language proficiency,
+                                                    and cross-cultural understanding to thrive in a diverse global landscape</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-4 mb-3 mb-sm-0">
+                                        <div onclick="goToContactPage()" class="card">
+                                            <div class="card-body">
+                                                <header>
+                                                    <img class="pb-2 m-2" src="Assests/science.png" alt="Software icon"
+                                                        width="50px">
+                                                    <h5 class="card-title"> Science & Engineering</h5>
+                                                </header>
+                                                <hr>
+                                                <p class="card-text">Venture into the realms of discovery, exploring scientific
+                                                    wonders and engineering marvels that shape the world around us.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- End of Categories -->
+        
 
-        <div class="container">
-            <center>
-                <div class="row">
-                    <div class="col-lg-4">
-                        <svg class="bd-placeholder-img rounded-circle" width="140" height="140"
-                            xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder"
-                            preserveAspectRatio="xMidYMid slice" focusable="false">
-                            <title>Placeholder</title>
-                            <rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect>
-                        </svg>
-                        <h2 class="fw-normal">Heading</h2>
-                        <p>Some representative placeholder content for the three columns of text below the carousel.
-                            This is
-                            the
-                            first column.</p>
-                        <p><a class="btn btn-secondary" href="#">View details »</a></p>
-                    </div><!-- /.col-lg-4 -->
-                    <div class="col-lg-4">
-                        <svg class="bd-placeholder-img rounded-circle" width="140" height="140"
-                            xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder"
-                            preserveAspectRatio="xMidYMid slice" focusable="false">
-                            <title>Placeholder</title>
-                            <rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect>
-                        </svg>
-                        <h2 class="fw-normal">Heading</h2>
-                        <p>Another exciting bit of representative placeholder content. This time, we've moved on to the
-                            second
-                            column.</p>
-                        <p><a class="btn btn-secondary" href="#">View details »</a></p>
-                    </div><!-- /.col-lg-4 -->
-                    <div class="col-lg-4">
-                        <svg class="bd-placeholder-img rounded-circle" width="140" height="140"
-                            xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder"
-                            preserveAspectRatio="xMidYMid slice" focusable="false">
-                            <title>Placeholder</title>
-                            <rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect>
-                        </svg>
-                        <h2 class="fw-normal">Heading</h2>
-                        <p>And lastly this, the third column of representative placeholder content.</p>
-                        <p><a class="btn btn-secondary" href="#">View details »</a></p>
-                    </div><!-- /.col-lg-4 -->
+        <!-- Testimonials -->
+        <div class=" container-fluid swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                    <center>
+                        <div class="col-lg-5 testimonial">
+                            <img src="./Assests/testimonial/person2.png" alt="person">
+                            <figure class="text-center">
+                                <blockquote class="blockquote">
+                                  <p>"The interactive learning approach made studying enjoyable. The platform's global community allowed me to connect with like-minded learners"</p>
+                                </blockquote>
+                                <figcaption class="blockquote-footer">
+                                    Sarah L., Graduated Student
+                                </figcaption>
+                              </figure>
+                        </div>
+                    </center>
                 </div>
-            </center>
+                <div class="swiper-slide">
+                    <center>
+                        <div class="col-lg-4 testimonial">
+                            <img src="./Assests/testimonial/person1.png" alt="person">
+                            <figure class="text-center">
+                                <blockquote class="blockquote">
+                                  <p>GlobalCertify has been a game-changer for me. The affordability and quality of education exceeded my expectations. and expanded my knowledge"</p>
+                                </blockquote>
+                                <figcaption class="blockquote-footer">
+                                    Raj M., Successful Learner
+                                </figcaption>
+                              </figure>
+                        </div>
+                    </center>
+                </div>
+                <div class="swiper-slide testimonial">
+                    <center>
+                        <div class="col-lg-4">
+                            <img src="./Assests/testimonial/person3.png" alt="person">
+                            <figure class="text-center">
+                                <blockquote class="blockquote">
+                                  <p>GlobalCertify transformed my approach to learning. The personalized learning paths and industry-relevant projects expanded my knowledge.</p>
+                                </blockquote>
+                                <figcaption class="blockquote-footer">
+                                    Alexa S., Empowered Learner
+                                </figcaption>
+                              </figure>
+                        </div>
+                    </center>
+                </div>
+                ...
+            </div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
         </div>
         <!-- End of Testimonials -->
 
         <!-- Footer  -->
-        <section>
+        <section class="footer">
             <div class="container">
                 <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top">
                     <div class="col mb-3">

@@ -7,13 +7,24 @@
 --delft-blue: #25395Cff;
 }
 
-.navbar > div {
-    padding: 2%;
-    margin: 0 !important;
-    background-color: var(--columbia-blue);
+:root::-webkit-scrollbar {
+  display: none;
 }
-nav {
-  background-color: var(--columbia-blue) !important;
+body{
+  overflow-x: hidden;
+  background-color: #FFFFFF;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' %3E%3Cdefs%3E%3ClinearGradient id='a' x1='0' x2='0' y1='0' y2='1'%3E%3Cstop offset='0' stop-color='%23C8DAEE'/%3E%3Cstop offset='1' stop-color='%23F3F3F3'/%3E%3C/linearGradient%3E%3C/defs%3E%3Cpattern id='b' width='24' height='24' patternUnits='userSpaceOnUse'%3E%3Ccircle fill='%23FFFFFF' cx='12' cy='12' r='12'/%3E%3C/pattern%3E%3Crect width='100%25' height='100%25' fill='url(%23a)'/%3E%3Crect width='100%25' height='100%25' fill='url(%23b)' fill-opacity='0.32'/%3E%3C/svg%3E");
+  background-attachment: fixed;
+}
+
+.navbar-custom {
+    padding: 5px;
+    margin: 0 !important;
+    background-color: var(--columbia-blue) !important;
+}
+
+.bottom-nav {
+  padding: 5%;
 }
 
 .button-5 {
@@ -24,7 +35,7 @@ nav {
     border-radius: .25rem;
     box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
     box-sizing: border-box;
-    color: #fff;
+    color:var(--white);
     cursor: pointer;
     display: inline-flex;
     font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -95,6 +106,72 @@ nav {
     transform: translateY(-1px);
   }
 
+.button-6 {
+  all: unset;
+  width: 200px;
+  height: 60px;
+  font-size: 16px;
+  background: transparent;
+  border: none;
+  position: relative;
+  color: black;
+  cursor: pointer;
+  z-index: 1;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-6::after,
+.button-6::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: -99999;
+  transition: all .4s;
+}
+
+.button-6::before {
+  transform: translate(0%, 0%);
+  width: 100%;
+  height: 100%;
+  background: var(--peach-yellow);
+  border-radius: 10px;
+}
+
+.button-6::after {
+  transform: translate(10px, 10px);
+  width: 35px;
+  height: 35px;
+  background: rgba(243, 121, 90, 0.78);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border-radius: 50px;
+}
+
+.button-6:hover::before {
+  transform: translate(5%, 20%);
+  width: 110%;
+  height: 110%;
+}
+
+.button-6:hover::after {
+  border-radius: 10px;
+  transform: translate(0, 0);
+  width: 100%;
+  height: 100%;
+}
+
+.button-6:active::after {
+  transition: 0s;
+  transform: translate(0, 5%);
+}
   .card-body{
     padding: 10px;
     height: 240px;
@@ -107,8 +184,7 @@ nav {
 
   .categories {
     background-color: var(--peach-yellow);
-    height: 430px;
-    margin-bottom: 360px;
+
   }
 
   .card {
@@ -222,4 +298,22 @@ nav {
   color: var(--delft-blue) !important;
   margin-left: 5px;
   font-size: 3rem;
+}
+
+.swiper{
+  height: auto;
+  background-color: var(--alice-blue);
+}
+
+.testimonial{
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+.footer{
+  background-color: var(--peach-yellow);
+  color: var(--delft-blue);
+  position: relative;
+  bottom:0;
+  margin-bottom: 0;
 }
